@@ -1,0 +1,27 @@
+{
+  "name": "mongo-tester",
+  "version": "1.0.1",
+  "description": "Mongo cli tester",
+  "main": "index.js",
+  "dependencies": {
+    "mongodb": "^2.2.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "mongo",
+    "tester",
+    "command",
+    "line"
+  ],
+  "author": "credondocr@gmail.com",
+  "engines": {
+    "node": ">= 0.4.0"
+  },
+  "license": "ISC",
+  "bin": {
+    "mongo-test": "index.js"
+  }
+}
